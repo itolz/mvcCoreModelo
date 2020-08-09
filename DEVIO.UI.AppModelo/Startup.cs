@@ -28,6 +28,7 @@ namespace DEVIO.UI.AppModelo
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles(); 
 
             app.UseMvc(routes =>
             {
